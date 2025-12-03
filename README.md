@@ -27,13 +27,15 @@ This package provides a convenient Laravel Artisan command (`gp`) that streamlin
 
 ## Installation
 
-1. Copy the `gp.php` file from this repository to your Laravel application's `app/Console/Commands/` directory:
+1. Download or clone this repository
+2. Copy the `gp.php` file to your Laravel application's `app/Console/Commands/` directory:
 
 ```bash
-cp gp.php /path/to/your/laravel/app/Console/Commands/
+# Example: Copy from downloaded location to your Laravel project
+cp /path/to/downloaded/gp.php /path/to/your/laravel/app/Console/Commands/
 ```
 
-2. The command will be automatically registered by Laravel's command discovery.
+3. The command will be automatically registered by Laravel's command discovery.
 
 ## Usage
 
