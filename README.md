@@ -22,12 +22,12 @@ This package provides a convenient Laravel Artisan command (`gp`) that streamlin
 ## Requirements
 
 - PHP 8.0 or higher
-- Laravel 9.x or higher
+- Laravel 10.x or higher
 - Git installed and configured
 
 ## Installation
 
-1. Copy the `gp.php` file to your Laravel application's `app/Console/Commands/` directory:
+1. Copy the `gp.php` file from this repository to your Laravel application's `app/Console/Commands/` directory:
 
 ```bash
 cp gp.php /path/to/your/laravel/app/Console/Commands/
